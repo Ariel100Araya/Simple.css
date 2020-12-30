@@ -37,10 +37,6 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #4b4444
-}
-
 .active {
   background-color: #4CAF50;
 }
@@ -157,6 +153,10 @@ li.dropdown {
     color: #eb6c05;
 }
 
+.metroyellow {
+    color: rgb(90, 89, 1)
+}
+
 .lunaorange {
     color: #faa550;
 }
@@ -187,6 +187,10 @@ li.dropdown {
 
 .areogreen {
     color: #05ebb5;
+}
+
+.metrogreen {
+  color: #0c5707;
 }
 
 .lunagreen {
@@ -278,8 +282,24 @@ h6 {
    color: #333333;
 }
 
+.shade {
+    color: #3f3e3e;
+    opacity: 0.7;
+}
+.standout {
+    opacity: 1.5;
+}
+
 .metalictheme {
   opacity: 0.4;
+}
+
+.transparencytheme {
+  opacity: 0.5;
+}
+
+.transparencytheme2 {
+  opacity: 0.8;
 }
 
 .areotheme {
@@ -843,6 +863,14 @@ li.dropdown {
 
 .lunared {
     color: #ff4f4f;
+}
+
+.litered {
+    color: #d15757;
+}
+
+.metrored {
+    color: #680000
 }
 
 .pinker {
