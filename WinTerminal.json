@@ -1,0 +1,26 @@
+{
+    "name" : "Simple",
+
+    "cursorColor": "#CCCCCC",
+    "selectionBackground": "#FFFFFF",
+
+    "background" : "#CCCCCC",
+    "foreground" : "#0C0C0C",
+
+    "black" : "#333333",
+    "blue" : "#008ae6",
+    "cyan" : "#05a2eb",
+    "green" : "#2eb82e",
+    "purple" : "#941fed",
+    "red" : "#942020",
+    "white" : "#CCCCCC",
+    "yellow" : "#f0a30a",
+    "brightBlack" : "#767676",
+    "brightBlue" : "#3B78FF",
+    "brightCyan" : "#61D6D6",
+    "brightGreen" : "#16C60C",
+    "brightPurple" : "#B4009E",
+    "brightRed" : "#E74856",
+    "brightWhite" : "#F2F2F2",
+    "brightYellow" : "#F9F1A5"
+},
