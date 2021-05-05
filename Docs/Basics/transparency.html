@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Simple.css">
+    <title>Transparency | Simple.css Docs</title>
+</head>
+<body>
+    <ul>
+        <li><a class="w3-blue" href="#">Docs</a></li>
+    </ul>
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-collapse w3-large w3-theme-l5 w3-animate-left" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="Close Menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <h4 class="w3-bar-item"><b>Learning the Basics</b></h4>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="index.html">Welcome</a>
+    <h4 class="w3-bar-item">AT.css</h4>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="colour.html">Colours</a>
+    <a class="w3-bar-item w3-button w3-grey" href="transparency.html">Transparency</a>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="themes.html">Themes</a>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="rules.html">Rules</a>
+    <h4 class="w3-bar-item">Other CSS Frameworks</h4>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="resources.html">Resources</a>
+    <a class="w3-bar-item w3-button w3-hover-grey" href="templates.html">Templates</a>
+  </nav>
+  </nav>
+  <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<div class="w3-main" style="margin-left:250px">
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1>Transparency</h1>
+      <h6>Ariel Araya | Developer</h6>
+      <br>
+      <h4>Base</h4>
+      <p>Simple.css creates transparency by adding an opacity layer. This can be triggered by typing OP followed by the number you want from 0 to 1 (it also counts in decimal. For example 01, 02, 03, is actually 0.1, 0.2, 0.3, ect)</p>
+      <br>
+      <h4>The transparency tag</h4>
+      <div class="w3-code notranslate htmlHigh">
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"></span><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1 class="OP[enter level here]"<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p class="OP[Enter level here]"<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+      </div>
+      <br>
+      <p>Transparency works on images too! You can add this tag and it will make your image transparent.</p>
+      <div class="w3-code notranslate htmlHigh">
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>img class="OP[enter level here]" src="exampleimage.png"<span class="tagcolor" style="color:mediumblue">&gt;</span></span><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/img<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+      </div>
+      <br>
+      <h4>Examples</h4>
+      <p>Here is an example with text. The heading will be more transparent because it has the 0.5 tag</p>
+      <div class="w3-code notranslate htmlHigh">
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>!DOCTYPE<span class="attributecolor" style="color:red"> html</span><span class="tagcolor" style="color:mediumblue">&gt;</span></span><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>html<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"></span><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/head<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>h1 class="OP05"<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a Heading<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/h1<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>p class="OP1"<span class="tagcolor" style="color:mediumblue">&gt;</span></span>This is a paragraph.<span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/p<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><br>
+        <span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/body<span class="tagcolor" style="color:mediumblue">&gt;</span></span><br><span class="tagnamecolor" style="color:brown"><span class="tagcolor" style="color:mediumblue">&lt;</span>/html<span class="tagcolor" style="color:mediumblue">&gt;</span></span>
+      </div>
+      <p>Result</p>
+      <br>
+      <h1 class="OP05">This is a heading</h1>
+      <p class="OP1">This is a paragraph.</p>
+      <br>
+      <a href="themes.html">Next: Themes!</a>
+      <br>
+    </div>
+  </div>
+</div>
+</body>
+</html>

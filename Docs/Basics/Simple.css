@@ -318,6 +318,45 @@ h6 {
     opacity: 0;
 }
 
+.OP09 {
+    opacity: 0.9;
+}
+
+.OP08{
+    opacity: 0.8;
+}
+
+.OP07{
+    opacity: 0.7;
+}
+
+.OP06 {
+    opacity: 0.6;
+}
+.OP05 {
+    opacity: 0.5;
+}
+
+.OP04{
+    opacity: 0.4;
+}
+
+.OP03{
+    opacity: 0.3;
+}
+
+.OP02 {
+    opacity: 0.2;
+}
+
+.OP01 {
+    opacity: 0.1;
+}
+
+.OP1 {
+    opacity: 1;
+}
+
 .at_positoning_right{
    text-align: right;
 }
